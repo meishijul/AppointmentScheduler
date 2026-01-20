@@ -5,7 +5,7 @@ public static class PreferredDays
 {
     public static List<DateOnly> ParsePreferredDates(List<JsonElement>? preferredDays)
     {
-        List<DateOnly> preferredDates = new List<DateOnly>();
+        List<DateOnly> preferredDates = new();
         if (preferredDays == null || preferredDays.Count == 0)
         {
             return preferredDates;
@@ -16,7 +16,7 @@ public static class PreferredDays
             if (dayElement.ValueKind != JsonValueKind.String){continue;}
 
             string? dayText = dayElement.GetString();
-            if (string.IsNullOrWhiteSpace(dayText){continue;}
+            if (string.IsNullOrWhiteSpace(dayText)){continue;}
 
             // try parsing as a date 
             if (DateOnly.TryParse(dayText, out DateOnly dateOnly))
