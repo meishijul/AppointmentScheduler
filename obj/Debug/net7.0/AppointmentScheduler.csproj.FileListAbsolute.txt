@@ -1,0 +1,15 @@
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/bin/Debug/net7.0/AppointmentScheduler
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/bin/Debug/net7.0/AppointmentScheduler.deps.json
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/bin/Debug/net7.0/AppointmentScheduler.runtimeconfig.json
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/bin/Debug/net7.0/AppointmentScheduler.dll
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/bin/Debug/net7.0/AppointmentScheduler.pdb
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/AppointmentScheduler.csproj.AssemblyReference.cache
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/AppointmentScheduler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/AppointmentScheduler.AssemblyInfoInputs.cache
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/AppointmentScheduler.AssemblyInfo.cs
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/AppointmentScheduler.csproj.CoreCompileInputs.cache
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/AppointmentScheduler.dll
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/refint/AppointmentScheduler.dll
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/AppointmentScheduler.pdb
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/AppointmentScheduler.genruntimeconfig.cache
+/Users/IshitaJuluru1/Brevium/AppointmentScheduler/obj/Debug/net7.0/ref/AppointmentScheduler.dll
