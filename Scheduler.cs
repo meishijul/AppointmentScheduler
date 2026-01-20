@@ -45,11 +45,14 @@ public sealed class Scheduler
 
     private (int doctorId, DateTimeOffset timeUtc)? FindSlot(AppointmentRequest req)
     {
-        List<int> docs;
+        List<Doctor> docs;
+
         if (req.PreferredDocs != null && req.PreferredDocs.Count > 0)
             docs = req.PreferredDocs;
         else
-            docs = new List<int> { 1, 2, 3 };
+            docs = new List<Doctor> {
+                Doctor.Doctor1, Doctor.Doctor2, Doctor.Doctor3
+            };
 
         var preferredDates = PreferredDays.ParsePreferredDates(req.PreferredDays);
         IEnumerable<DateOnly> dates;
@@ -80,8 +83,8 @@ public sealed class Scheduler
 
                 foreach (var doc in docs)
                 {
-                    if (DoctorFree(doc, slotUtc))
-                        return (doc, slotUtc);
+                    if (DoctorFree((int)doc, slotUtc))
+                        return ((int)doc, slotUtc);
                 }
             }
         }
