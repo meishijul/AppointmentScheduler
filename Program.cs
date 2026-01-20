@@ -14,7 +14,7 @@ internal class Program
         var api = new ApiClient("https://scheduling.interviews.brevium.com", token);
         await api.StartAsync();
 
-        // MUST call only once per run
+        // must call only once per run
         var initial = await api.GetInitialScheduleAsync();
         var scheduler = new Scheduler(initial);
         int scheduled = 0;
